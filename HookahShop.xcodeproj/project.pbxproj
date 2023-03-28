@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515A517E29C78753008D6287 /* HookahShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A517D29C78753008D6287 /* HookahShopApp.swift */; };
+		515A518229C78753008D6287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515A518129C78753008D6287 /* Assets.xcassets */; };
+		515A518529C78753008D6287 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515A518429C78753008D6287 /* Preview Assets.xcassets */; };
+		51CBCE4129D0E646007D9325 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 51CBCE4029D0E646007D9325 /* Views */; };
+		51CBCE4629D0EBD2007D9325 /* bodyWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4529D0EBD2007D9325 /* bodyWelcome.swift */; };
+		51CBCE4829D0EBF7007D9325 /* companyTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4729D0EBF7007D9325 /* companyTitle.swift */; };
+		51CBCE4A29D0EC36007D9325 /* navBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4929D0EC36007D9325 /* navBar.swift */; };
+		51CBCE4C29D0EC55007D9325 /* header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4B29D0EC55007D9325 /* header.swift */; };
+		51CBCE4E29D0EC6D007D9325 /* homeMainPic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4D29D0EC6D007D9325 /* homeMainPic.swift */; };
+		51CBCE5029D0EC7F007D9325 /* maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4F29D0EC7F007D9325 /* maps.swift */; };
+		51CBCE5229D0ECA0007D9325 /* originStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE5129D0ECA0007D9325 /* originStory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		515A517A29C78753008D6287 /* HookahShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HookahShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515A517D29C78753008D6287 /* HookahShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookahShopApp.swift; sourceTree = "<group>"; };
+		515A518129C78753008D6287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		515A518429C78753008D6287 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		515A518629C78753008D6287 /* HookahShop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HookahShop.entitlements; sourceTree = "<group>"; };
+		51CBCE4029D0E646007D9325 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		51CBCE4529D0EBD2007D9325 /* bodyWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bodyWelcome.swift; sourceTree = "<group>"; };
+		51CBCE4729D0EBF7007D9325 /* companyTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = companyTitle.swift; sourceTree = "<group>"; };
+		51CBCE4929D0EC36007D9325 /* navBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navBar.swift; sourceTree = "<group>"; };
+		51CBCE4B29D0EC55007D9325 /* header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = header.swift; sourceTree = "<group>"; };
+		51CBCE4D29D0EC6D007D9325 /* homeMainPic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeMainPic.swift; sourceTree = "<group>"; };
+		51CBCE4F29D0EC7F007D9325 /* maps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maps.swift; sourceTree = "<group>"; };
+		51CBCE5129D0ECA0007D9325 /* originStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = originStory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515A517729C78753008D6287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515A517129C78753008D6287 = {
+			isa = PBXGroup;
+			children = (
+				515A517C29C78753008D6287 /* HookahShop */,
+				515A517B29C78753008D6287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		515A517B29C78753008D6287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515A517A29C78753008D6287 /* HookahShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515A517C29C78753008D6287 /* HookahShop */ = {
+			isa = PBXGroup;
+			children = (
+				51CBCE4229D0E654007D9325 /* Components */,
+				51CBCE4029D0E646007D9325 /* Views */,
+				515A517D29C78753008D6287 /* HookahShopApp.swift */,
+				515A518129C78753008D6287 /* Assets.xcassets */,
+				515A518629C78753008D6287 /* HookahShop.entitlements */,
+				515A518329C78753008D6287 /* Preview Content */,
+			);
+			path = HookahShop;
+			sourceTree = "<group>";
+		};
+		515A518329C78753008D6287 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				515A518429C78753008D6287 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51CBCE4229D0E654007D9325 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				51CBCE4929D0EC36007D9325 /* navBar.swift */,
+				51CBCE4529D0EBD2007D9325 /* bodyWelcome.swift */,
+				51CBCE4729D0EBF7007D9325 /* companyTitle.swift */,
+				51CBCE4B29D0EC55007D9325 /* header.swift */,
+				51CBCE4D29D0EC6D007D9325 /* homeMainPic.swift */,
+				51CBCE4F29D0EC7F007D9325 /* maps.swift */,
+				51CBCE5129D0ECA0007D9325 /* originStory.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515A517929C78753008D6287 /* HookahShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515A518929C78753008D6287 /* Build configuration list for PBXNativeTarget "HookahShop" */;
+			buildPhases = (
+				515A517629C78753008D6287 /* Sources */,
+				515A517729C78753008D6287 /* Frameworks */,
+				515A517829C78753008D6287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HookahShop;
+			productName = HookahShop;
+			productReference = 515A517A29C78753008D6287 /* HookahShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515A517229C78753008D6287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					515A517929C78753008D6287 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 515A517529C78753008D6287 /* Build configuration list for PBXProject "HookahShop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515A517129C78753008D6287;
+			productRefGroup = 515A517B29C78753008D6287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515A517929C78753008D6287 /* HookahShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515A517829C78753008D6287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51CBCE4129D0E646007D9325 /* Views in Resources */,
+				515A518529C78753008D6287 /* Preview Assets.xcassets in Resources */,
+				515A518229C78753008D6287 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515A517629C78753008D6287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51CBCE5029D0EC7F007D9325 /* maps.swift in Sources */,
+				51CBCE4629D0EBD2007D9325 /* bodyWelcome.swift in Sources */,
+				51CBCE4C29D0EC55007D9325 /* header.swift in Sources */,
+				51CBCE4E29D0EC6D007D9325 /* homeMainPic.swift in Sources */,
+				51CBCE4A29D0EC36007D9325 /* navBar.swift in Sources */,
+				51CBCE5229D0ECA0007D9325 /* originStory.swift in Sources */,
+				515A517E29C78753008D6287 /* HookahShopApp.swift in Sources */,
+				51CBCE4829D0EBF7007D9325 /* companyTitle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		515A518729C78753008D6287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		515A518829C78753008D6287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		515A518A29C78753008D6287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HookahShop/HookahShop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HookahShop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Codemonkey.HookahShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		515A518B29C78753008D6287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HookahShop/HookahShop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HookahShop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Codemonkey.HookahShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515A517529C78753008D6287 /* Build configuration list for PBXProject "HookahShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515A518729C78753008D6287 /* Debug */,
+				515A518829C78753008D6287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515A518929C78753008D6287 /* Build configuration list for PBXNativeTarget "HookahShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515A518A29C78753008D6287 /* Debug */,
+				515A518B29C78753008D6287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515A517229C78753008D6287 /* Project object */;
+}
