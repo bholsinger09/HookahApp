@@ -1,36 +1,49 @@
-//
-//  ContentView.swift
-//  HookahShop
-//
-//  Created by Ben Holsinger on 3/19/23.
-//
-
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var posts = [Post]()
+
     var body: some View {
-        NavigationView {
+        Navigation {
             VStack {
                 Header()
-                NavigationLink(destination: HomeView()) {
-                    Text("Home")
-                }
-                NavigationLink(destination: GetQuote()) {
-                    Text("Get Quote")
-                }
-                NavigationLink(destination: GetDirections()) {
-                    Text("Get Directions")
-                }
-                NavigationLink(destination: ContactUs()) {
-                    Text("Contact Us")
-                }
-                NavigationLink(destination: NotFoundPage()) {
-                    Text("Not Found")
+                NavigationLink("Home", destination: Home())
+                    .font(.title)
+                    .foregroundColor(.black)
+                NavigationLink("Get Quote", destination: GetQuote())
+                    .font(.title)
+                    .foregroundColor(.black)
+                NavigationLink("Get Directions", destination: GetDirections())
+                    .font(.title)
+                    .foregroundColor(.black)
+                NavigationLink("Contact Us", destination: ContactUs())
+                    .font(.title)
+                    .foregroundColor(.black)
+                NavigationLink("Not Found", destination: NotFoundPage())
+                    .font(.title)
+                    .foregroundColor(.red)
+            }
+            .navigationTitle("My App")
+            .padding()
+        }
+        .onAppear(perform: loadData)
+    }
+
+    func loadData() {
+        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else {
+            return
+        }
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            if let data = data {
+                if let decodedResponse = try? JSONDecoder().decode([Post].self, from: data) {
+                    DispatchQueue.main.async {
+                        self.posts = decodedResponse
+                    }
+                    return
                 }
             }
-            .navigationBarTitle(Text("My App"))
-        }
+            print("Fetch failed: \(error?.localizedDescription ?? "Unknown error")")
+        }.resume()
     }
 }
 
@@ -39,6 +52,7 @@ struct Header: View {
         Text("Header")
             .font(.largeTitle)
             .foregroundColor(.blue)
+            .padding()
     }
 }
 
@@ -47,6 +61,7 @@ struct Home: View {
         Text("Home Page")
             .font(.title)
             .foregroundColor(.black)
+            .padding()
     }
 }
 
@@ -55,6 +70,7 @@ struct GetQuote: View {
         Text("Get Quote Page")
             .font(.title)
             .foregroundColor(.black)
+            .padding()
     }
 }
 
@@ -63,6 +79,7 @@ struct GetDirections: View {
         Text("Get Directions Page")
             .font(.title)
             .foregroundColor(.black)
+            .padding()
     }
 }
 
@@ -71,6 +88,7 @@ struct ContactUs: View {
         Text("Contact Us Page")
             .font(.title)
             .foregroundColor(.black)
+            .padding()
     }
 }
 
@@ -79,5 +97,12 @@ struct NotFoundPage: View {
         Text("Page Not Found")
             .font(.title)
             .foregroundColor(.red)
+            .padding()
     }
+}
+
+struct Post: Codable, Identifiable {
+    let id: Int
+    let title: String
+    let body: String
 }
