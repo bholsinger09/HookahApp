@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MainPictureBodyView: View {
+struct MainPictureBody: View {
     var body: some View {
         Image("MainPictureBody")
             .resizable()

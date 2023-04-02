@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct WelcomeView: View {
+struct Welcome: View {
     var body: some View {
         VStack {
             Text("Welcome to the Grocery & Hookah house!")

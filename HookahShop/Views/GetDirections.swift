@@ -10,12 +10,22 @@ import MapKit
 
 struct GetDirections: View {
     var body: some View {
-        VStack {
-            Text("Get Directions")
-                .font(.title)
-                .padding(.top, 16)
-            MapView()
-                .frame(height: 300)
+        ZStack {
+            Color.black
+                .ignoresSafeArea()
+            VStack {
+                NavigationLink(
+                    destination: Text("Destination View"),
+                    label: {
+                        Text("Get Directions")
+                            .font(.title)
+                            .foregroundColor(.red)
+                            .padding(.top, 16)
+                    })
+                MapView()
+                    .frame(height: 300)
+            }
+            .padding(10)
         }
     }
 }
@@ -27,4 +37,3 @@ struct MapView: UIViewRepresentable {
 
     func updateUIView(_ uiView: MKMapView, context: Context) {}
 }
-

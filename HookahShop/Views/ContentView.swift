@@ -1,28 +1,15 @@
-import SwiftUI
 
 struct ContentView: View {
     @State private var posts = [Post]()
 
     var body: some View {
-        Navigation {
+        NavigationView {
             VStack {
+                NavBar()
                 Header()
-                NavigationLink("Home", destination: Home())
-                    .font(.title)
-                    .foregroundColor(.black)
-                NavigationLink("Get Quote", destination: GetQuote())
-                    .font(.title)
-                    .foregroundColor(.black)
-                NavigationLink("Get Directions", destination: GetDirections())
-                    .font(.title)
-                    .foregroundColor(.black)
-                NavigationLink("Contact Us", destination: ContactUs())
-                    .font(.title)
-                    .foregroundColor(.black)
-                NavigationLink("Not Found", destination: NotFoundPage())
-                    .font(.title)
-                    .foregroundColor(.red)
+                HomeView()
             }
+            .ignoresSafeArea()
             .navigationTitle("My App")
             .padding()
         }
@@ -47,6 +34,31 @@ struct ContentView: View {
     }
 }
 
+struct NavBar: View {
+    var body: some View {
+        HStack {
+            Button("Home") {
+                // navigate to home page
+            }
+            Spacer()
+            Button("Get Quote") {
+                // navigate to get quote page
+            }
+            Spacer()
+            Button("Get Directions") {
+                // navigate to get directions page
+            }
+            Spacer()
+            Button("Contact Us") {
+                // navigate to contact us page
+            }
+        }
+        .font(.title)
+        .foregroundColor(.blue)
+        .padding(.horizontal)
+    }
+}
+
 struct Header: View {
     var body: some View {
         Text("Header")
@@ -56,47 +68,45 @@ struct Header: View {
     }
 }
 
-struct Home: View {
+struct HomeView: View {
     var body: some View {
-        Text("Home Page")
+        VStack {
+            Welcome()
+            MainPictureBody()
+            OriginStory()
+        }
+    }
+}
+
+struct Welcome: View {
+    var body: some View {
+        // implementation of Welcome component
+        // ...
+        Text("Welcome")
             .font(.title)
-            .foregroundColor(.black)
+            .foregroundColor(.blue)
             .padding()
     }
 }
 
-struct GetQuote: View {
+struct MainPictureBody: View {
     var body: some View {
-        Text("Get Quote Page")
+        // implementation of MainPic component
+        // ...
+        Text("Main Picture Body")
             .font(.title)
-            .foregroundColor(.black)
+            .foregroundColor(.blue)
             .padding()
     }
 }
 
-struct GetDirections: View {
+struct OriginStory: View {
     var body: some View {
-        Text("Get Directions Page")
+        // implementation of OriginStory component
+        // ...
+        Text("Origin Story")
             .font(.title)
-            .foregroundColor(.black)
-            .padding()
-    }
-}
-
-struct ContactUs: View {
-    var body: some View {
-        Text("Contact Us Page")
-            .font(.title)
-            .foregroundColor(.black)
-            .padding()
-    }
-}
-
-struct NotFoundPage: View {
-    var body: some View {
-        Text("Page Not Found")
-            .font(.title)
-            .foregroundColor(.red)
+            .foregroundColor(.blue)
             .padding()
     }
 }
