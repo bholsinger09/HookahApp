@@ -6,19 +6,18 @@
 //
 
 import SwiftUI
-import GoogleMaps
+import MapKit
 
 struct MapView: UIViewRepresentable {
-    typealias UIViewType = GMSMapView
+    typealias UIViewType = MKMapView
     
     @State private var searchQuery: String = ""
     private let center = CLLocationCoordinate2D(latitude: 40.756795, longitude: -73.954298)
     
-    func makeUIView(context: Context) -> GMSMapView {
-        let mapView = GMSMapView()
-        mapView.settings.myLocationButton = true
-        mapView.settings.compassButton = true
-        mapView.camera = GMSCameraPosition.camera(withTarget: center, zoom: 12)
+    func makeUIView(context: Context) -> MKMapView {
+        let mapView = MKMapView()
+        mapView.showsUserLocation = true
+        mapView.userTrackingMode = .follow
         mapView.delegate = context.coordinator
         
         let searchBox = UISearchController(searchResultsController: nil)
@@ -44,15 +43,15 @@ struct MapView: UIViewRepresentable {
         return mapView
     }
     
-    func updateUIView(_ mapView: GMSMapView, context: Context) {
-        mapView.animate(to: GMSCameraPosition.camera(withTarget: center, zoom: 12))
+    func updateUIView(_ mapView: MKMapView, context: Context) {
+        mapView.setCenter(center, animated: true)
     }
     
     func makeCoordinator() -> Coordinator {
         return Coordinator(mapView: self)
     }
     
-    class Coordinator: NSObject, UISearchResultsUpdating, GMSMapViewDelegate {
+    class Coordinator: NSObject, UISearchResultsUpdating, MKMapViewDelegate {
         var mapView: MapView
         
         init(mapView: MapView) {
@@ -74,4 +73,3 @@ struct ContentView: View {
         }
     }
 }
-

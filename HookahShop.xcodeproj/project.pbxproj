@@ -10,6 +10,7 @@
 		515A517E29C78753008D6287 /* HookahShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A517D29C78753008D6287 /* HookahShopApp.swift */; };
 		515A518229C78753008D6287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515A518129C78753008D6287 /* Assets.xcassets */; };
 		515A518529C78753008D6287 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515A518429C78753008D6287 /* Preview Assets.xcassets */; };
+		51A5B9B329D9DEFB001E4311 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A5B9B229D9DEFB001E4311 /* MapKit.framework */; };
 		51CBCE4129D0E646007D9325 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 51CBCE4029D0E646007D9325 /* Views */; };
 		51CBCE4629D0EBD2007D9325 /* bodyWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4529D0EBD2007D9325 /* bodyWelcome.swift */; };
 		51CBCE4829D0EBF7007D9325 /* companyTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4729D0EBF7007D9325 /* companyTitle.swift */; };
@@ -26,6 +27,7 @@
 		515A518129C78753008D6287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		515A518429C78753008D6287 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		515A518629C78753008D6287 /* HookahShop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HookahShop.entitlements; sourceTree = "<group>"; };
+		51A5B9B229D9DEFB001E4311 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		51CBCE4029D0E646007D9325 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
 		51CBCE4529D0EBD2007D9325 /* bodyWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bodyWelcome.swift; sourceTree = "<group>"; };
 		51CBCE4729D0EBF7007D9325 /* companyTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = companyTitle.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51A5B9B329D9DEFB001E4311 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +55,7 @@
 			children = (
 				515A517C29C78753008D6287 /* HookahShop */,
 				515A517B29C78753008D6287 /* Products */,
+				51A5B9B129D9DEFB001E4311 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +86,14 @@
 				515A518429C78753008D6287 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51A5B9B129D9DEFB001E4311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51A5B9B229D9DEFB001E4311 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		51CBCE4229D0E654007D9325 /* Components */ = {
