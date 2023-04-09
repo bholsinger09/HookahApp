@@ -13,7 +13,7 @@ struct NavBar: View {
             CompanyTitle()
             Divider()
             HStack {
-                NavigationLink(destination: HomeView()) {
+                NavigationLink(destination: ContentView()) {
                     Text("Home")
                         .frame(maxWidth: .infinity, alignment: .center)
                         .padding()
@@ -47,11 +47,7 @@ struct CompanyTitle: View {
     }
 }
 
-struct HomeView: View {
-    var body: some View {
-        Text("Home View")
-    }
-}
+
 
 struct QuoteView: View {
     var body: some View {

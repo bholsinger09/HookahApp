@@ -12,7 +12,9 @@ struct MapView: UIViewRepresentable {
     typealias UIViewType = MKMapView
     
     @State private var searchQuery: String = ""
-    private let center = CLLocationCoordinate2D(latitude: 40.756795, longitude: -73.954298)
+    private var center: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: 40.756795, longitude: -73.954298)
+    }
     
     func makeUIView(context: Context) -> MKMapView {
         let mapView = MKMapView()
@@ -20,6 +22,21 @@ struct MapView: UIViewRepresentable {
         mapView.userTrackingMode = .follow
         mapView.delegate = context.coordinator
         
+        let searchBox = configureSearchBox(context: context)
+        mapView.addSubview(searchBox)
+        
+        return mapView
+    }
+    
+    func updateUIView(_ mapView: MKMapView, context: Context) {
+        mapView.setCenter(center, animated: true)
+    }
+    
+    func makeCoordinator() -> Coordinator {
+        return Coordinator(mapView: self)
+    }
+    
+    private func configureSearchBox(context: Context) -> UIView {
         let searchBox = UISearchController(searchResultsController: nil)
         searchBox.searchResultsUpdater = context.coordinator
         searchBox.obscuresBackgroundDuringPresentation = false
@@ -38,17 +55,8 @@ struct MapView: UIViewRepresentable {
         searchBarContainer.layer.shadowOpacity = 0.3
         searchBarContainer.layer.shadowOffset = .zero
         searchBarContainer.layer.shadowRadius = 2
-        mapView.addSubview(searchBarContainer)
         
-        return mapView
-    }
-    
-    func updateUIView(_ mapView: MKMapView, context: Context) {
-        mapView.setCenter(center, animated: true)
-    }
-    
-    func makeCoordinator() -> Coordinator {
-        return Coordinator(mapView: self)
+        return searchBarContainer
     }
     
     class Coordinator: NSObject, UISearchResultsUpdating, MKMapViewDelegate {
@@ -66,6 +74,8 @@ struct MapView: UIViewRepresentable {
     }
 }
 
+
+/*
 struct ContentView: View {
     var body: some View {
         ZStack {
@@ -73,3 +83,4 @@ struct ContentView: View {
         }
     }
 }
+*/
