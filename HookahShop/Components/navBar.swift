@@ -7,63 +7,48 @@
 
 import SwiftUI
 
+
 struct NavBar: View {
+    let navButtonFontSize: CGFloat = 14.0
+
     var body: some View {
-        VStack {
-            CompanyTitle()
+        VStack(spacing: 0) {
+            Text("Hookah Grocery Shop")
+                .font(.custom("AmericanTypewriter", size: 16).relativeTo(.body))
+                .foregroundColor(Color("RubyRed"))
+                .padding(.vertical, 4)
+                .frame(maxWidth: .infinity)
+                .background(Color.black)
+                .foregroundColor(.white)
             Divider()
             HStack {
                 NavigationLink(destination: ContentView()) {
                     Text("Home")
                         .frame(maxWidth: .infinity, alignment: .center)
+                        .font(.system(size: navButtonFontSize))
                         .padding()
                 }
-                NavigationLink(destination: QuoteView()) {
+                NavigationLink(destination: QuoteForm()) {
                     Text("Get a quote")
                         .frame(maxWidth: .infinity, alignment: .center)
+                        .font(.system(size: navButtonFontSize))
                         .padding()
                 }
-                NavigationLink(destination: ContactUsView()) {
+                NavigationLink(destination: ContactUs()) {
                     Text("Contact Us")
                         .frame(maxWidth: .infinity, alignment: .center)
+                        .font(.system(size: navButtonFontSize))
                         .padding()
                 }
-                NavigationLink(destination: DirectionsView()) {
+                NavigationLink(destination: GetDirections()) {
                     Text("Get Directions")
                         .frame(maxWidth: .infinity, alignment: .center)
+                        .font(.system(size: navButtonFontSize))
                         .padding()
                 }
             }
             Spacer()
         }
-        .padding()
+        .padding(.horizontal)
     }
 }
-
-struct CompanyTitle: View {
-    var body: some View {
-        Text("Company Title")
-            .font(.title)
-    }
-}
-
-
-
-struct QuoteView: View {
-    var body: some View {
-        Text("Quote View")
-    }
-}
-
-struct ContactUsView: View {
-    var body: some View {
-        Text("Contact Us View")
-    }
-}
-
-struct DirectionsView: View {
-    var body: some View {
-        Text("Directions View")
-    }
-}
-

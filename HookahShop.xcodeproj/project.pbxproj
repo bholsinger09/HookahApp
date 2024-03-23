@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		513E673D29F5E7A200814C01 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9B629E35FF6001E4311 /* ContactUsView.swift */; };
+		513E673E29F5E7AA00814C01 /* GetDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9BA29E36016001E4311 /* GetDirections.swift */; };
+		513E673F29F5E7AD00814C01 /* PageNotFound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9BE29E3602F001E4311 /* PageNotFound.swift */; };
+		513E674029F5E7B000814C01 /* GetQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9BC29E36027001E4311 /* GetQuote.swift */; };
+		513E674129F5E7F600814C01 /* bodyWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4529D0EBD2007D9325 /* bodyWelcome.swift */; };
+		513E674229F5E7FA00814C01 /* companyTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4729D0EBF7007D9325 /* companyTitle.swift */; };
+		513E674329F5E7FE00814C01 /* header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4B29D0EC55007D9325 /* header.swift */; };
+		513E674429F5E80100814C01 /* homeMainPic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4D29D0EC6D007D9325 /* homeMainPic.swift */; };
+		513E674529F5E80400814C01 /* maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4F29D0EC7F007D9325 /* maps.swift */; };
+		513E674629F5E80900814C01 /* originStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE5129D0ECA0007D9325 /* originStory.swift */; };
+		513E674729F5E81500814C01 /* navBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4929D0EC36007D9325 /* navBar.swift */; };
 		515A517E29C78753008D6287 /* HookahShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A517D29C78753008D6287 /* HookahShopApp.swift */; };
 		515A518229C78753008D6287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515A518129C78753008D6287 /* Assets.xcassets */; };
 		515A518529C78753008D6287 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515A518429C78753008D6287 /* Preview Assets.xcassets */; };
@@ -191,6 +202,17 @@
 			files = (
 				51A5B9B929E3600B001E4311 /* ContentView.swift in Sources */,
 				515A517E29C78753008D6287 /* HookahShopApp.swift in Sources */,
+				513E674129F5E7F600814C01 /* bodyWelcome.swift in Sources */,
+				513E673F29F5E7AD00814C01 /* PageNotFound.swift in Sources */,
+				513E673E29F5E7AA00814C01 /* GetDirections.swift in Sources */,
+				513E674629F5E80900814C01 /* originStory.swift in Sources */,
+				513E674329F5E7FE00814C01 /* header.swift in Sources */,
+				513E673D29F5E7A200814C01 /* ContactUsView.swift in Sources */,
+				513E674729F5E81500814C01 /* navBar.swift in Sources */,
+				513E674529F5E80400814C01 /* maps.swift in Sources */,
+				513E674229F5E7FA00814C01 /* companyTitle.swift in Sources */,
+				513E674429F5E80100814C01 /* homeMainPic.swift in Sources */,
+				513E674029F5E7B000814C01 /* GetQuote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
