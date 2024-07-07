@@ -7,43 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5128D0B02B49F16B0011B649 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 5128D0AF2B49F16B0011B649 /* Model */; };
+		5128D0B32B49F36A0011B649 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5128D0B22B49F36A0011B649 /* HomeViewModel.swift */; };
 		513E673D29F5E7A200814C01 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9B629E35FF6001E4311 /* ContactUsView.swift */; };
 		513E673E29F5E7AA00814C01 /* GetDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9BA29E36016001E4311 /* GetDirections.swift */; };
 		513E673F29F5E7AD00814C01 /* PageNotFound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9BE29E3602F001E4311 /* PageNotFound.swift */; };
 		513E674029F5E7B000814C01 /* GetQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9BC29E36027001E4311 /* GetQuote.swift */; };
-		513E674129F5E7F600814C01 /* bodyWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4529D0EBD2007D9325 /* bodyWelcome.swift */; };
-		513E674229F5E7FA00814C01 /* companyTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4729D0EBF7007D9325 /* companyTitle.swift */; };
-		513E674329F5E7FE00814C01 /* header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4B29D0EC55007D9325 /* header.swift */; };
-		513E674429F5E80100814C01 /* homeMainPic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4D29D0EC6D007D9325 /* homeMainPic.swift */; };
-		513E674529F5E80400814C01 /* maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4F29D0EC7F007D9325 /* maps.swift */; };
-		513E674629F5E80900814C01 /* originStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE5129D0ECA0007D9325 /* originStory.swift */; };
-		513E674729F5E81500814C01 /* navBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBCE4929D0EC36007D9325 /* navBar.swift */; };
 		515A517E29C78753008D6287 /* HookahShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A517D29C78753008D6287 /* HookahShopApp.swift */; };
 		515A518229C78753008D6287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515A518129C78753008D6287 /* Assets.xcassets */; };
 		515A518529C78753008D6287 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515A518429C78753008D6287 /* Preview Assets.xcassets */; };
+		51601F1F2BAF87E9000AE819 /* ContactUsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51601F1E2BAF87E9000AE819 /* ContactUsViewModel.swift */; };
+		51601F222BAF8830000AE819 /* GetDirectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51601F212BAF8830000AE819 /* GetDirectionViewModel.swift */; };
+		51601F252BAF888A000AE819 /* PageNotFoundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51601F242BAF888A000AE819 /* PageNotFoundViewModel.swift */; };
+		51601F282BAF88D6000AE819 /* GetQuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51601F272BAF88D6000AE819 /* GetQuoteViewModel.swift */; };
 		51A5B9B329D9DEFB001E4311 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A5B9B229D9DEFB001E4311 /* MapKit.framework */; };
-		51A5B9B929E3600B001E4311 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9B829E3600B001E4311 /* ContentView.swift */; };
+		51A5B9B929E3600B001E4311 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9B829E3600B001E4311 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5128D0AF2B49F16B0011B649 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		5128D0B22B49F36A0011B649 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		515A517A29C78753008D6287 /* HookahShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HookahShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		515A517D29C78753008D6287 /* HookahShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookahShopApp.swift; sourceTree = "<group>"; };
 		515A518129C78753008D6287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		515A518429C78753008D6287 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		515A518629C78753008D6287 /* HookahShop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HookahShop.entitlements; sourceTree = "<group>"; };
+		51601F1E2BAF87E9000AE819 /* ContactUsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewModel.swift; sourceTree = "<group>"; };
+		51601F212BAF8830000AE819 /* GetDirectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDirectionViewModel.swift; sourceTree = "<group>"; };
+		51601F242BAF888A000AE819 /* PageNotFoundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageNotFoundViewModel.swift; sourceTree = "<group>"; };
+		51601F272BAF88D6000AE819 /* GetQuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetQuoteViewModel.swift; sourceTree = "<group>"; };
 		51A5B9B229D9DEFB001E4311 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		51A5B9B629E35FF6001E4311 /* ContactUsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
-		51A5B9B829E3600B001E4311 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51A5B9B829E3600B001E4311 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		51A5B9BA29E36016001E4311 /* GetDirections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDirections.swift; sourceTree = "<group>"; };
 		51A5B9BC29E36027001E4311 /* GetQuote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetQuote.swift; sourceTree = "<group>"; };
 		51A5B9BE29E3602F001E4311 /* PageNotFound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageNotFound.swift; sourceTree = "<group>"; };
-		51CBCE4529D0EBD2007D9325 /* bodyWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bodyWelcome.swift; sourceTree = "<group>"; };
-		51CBCE4729D0EBF7007D9325 /* companyTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = companyTitle.swift; sourceTree = "<group>"; };
-		51CBCE4929D0EC36007D9325 /* navBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navBar.swift; sourceTree = "<group>"; };
-		51CBCE4B29D0EC55007D9325 /* header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = header.swift; sourceTree = "<group>"; };
-		51CBCE4D29D0EC6D007D9325 /* homeMainPic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeMainPic.swift; sourceTree = "<group>"; };
-		51CBCE4F29D0EC7F007D9325 /* maps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maps.swift; sourceTree = "<group>"; };
-		51CBCE5129D0ECA0007D9325 /* originStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = originStory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5128D0B12B49F3190011B649 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				51A5B9B829E3600B001E4311 /* HomeView.swift */,
+				5128D0B22B49F36A0011B649 /* HomeViewModel.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
 		515A517129C78753008D6287 = {
 			isa = PBXGroup;
 			children = (
@@ -79,10 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				51A5B9C029E36046001E4311 /* Views */,
-				51CBCE4229D0E654007D9325 /* Components */,
+				51CBCE4229D0E654007D9325 /* Utilites */,
 				515A517D29C78753008D6287 /* HookahShopApp.swift */,
 				515A518129C78753008D6287 /* Assets.xcassets */,
 				515A518629C78753008D6287 /* HookahShop.entitlements */,
+				5128D0AF2B49F16B0011B649 /* Model */,
 				515A518329C78753008D6287 /* Preview Content */,
 			);
 			path = HookahShop;
@@ -96,6 +104,42 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		51601F1D2BAF878A000AE819 /* ContactUsView */ = {
+			isa = PBXGroup;
+			children = (
+				51A5B9B629E35FF6001E4311 /* ContactUsView.swift */,
+				51601F1E2BAF87E9000AE819 /* ContactUsViewModel.swift */,
+			);
+			path = ContactUsView;
+			sourceTree = "<group>";
+		};
+		51601F202BAF87F5000AE819 /* GetDirectionsView */ = {
+			isa = PBXGroup;
+			children = (
+				51A5B9BA29E36016001E4311 /* GetDirections.swift */,
+				51601F212BAF8830000AE819 /* GetDirectionViewModel.swift */,
+			);
+			path = GetDirectionsView;
+			sourceTree = "<group>";
+		};
+		51601F232BAF8848000AE819 /* PageNotFoundView */ = {
+			isa = PBXGroup;
+			children = (
+				51A5B9BE29E3602F001E4311 /* PageNotFound.swift */,
+				51601F242BAF888A000AE819 /* PageNotFoundViewModel.swift */,
+			);
+			path = PageNotFoundView;
+			sourceTree = "<group>";
+		};
+		51601F262BAF8899000AE819 /* GetQuoteView */ = {
+			isa = PBXGroup;
+			children = (
+				51A5B9BC29E36027001E4311 /* GetQuote.swift */,
+				51601F272BAF88D6000AE819 /* GetQuoteViewModel.swift */,
+			);
+			path = GetQuoteView;
+			sourceTree = "<group>";
+		};
 		51A5B9B129D9DEFB001E4311 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,27 +151,21 @@
 		51A5B9C029E36046001E4311 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				51A5B9B629E35FF6001E4311 /* ContactUsView.swift */,
-				51A5B9B829E3600B001E4311 /* ContentView.swift */,
-				51A5B9BA29E36016001E4311 /* GetDirections.swift */,
-				51A5B9BE29E3602F001E4311 /* PageNotFound.swift */,
-				51A5B9BC29E36027001E4311 /* GetQuote.swift */,
+				51601F262BAF8899000AE819 /* GetQuoteView */,
+				51601F232BAF8848000AE819 /* PageNotFoundView */,
+				51601F202BAF87F5000AE819 /* GetDirectionsView */,
+				51601F1D2BAF878A000AE819 /* ContactUsView */,
+				5128D0B12B49F3190011B649 /* HomeView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		51CBCE4229D0E654007D9325 /* Components */ = {
+		51CBCE4229D0E654007D9325 /* Utilites */ = {
 			isa = PBXGroup;
 			children = (
-				51CBCE4929D0EC36007D9325 /* navBar.swift */,
-				51CBCE4529D0EBD2007D9325 /* bodyWelcome.swift */,
-				51CBCE4729D0EBF7007D9325 /* companyTitle.swift */,
-				51CBCE4B29D0EC55007D9325 /* header.swift */,
-				51CBCE4D29D0EC6D007D9325 /* homeMainPic.swift */,
-				51CBCE4F29D0EC7F007D9325 /* maps.swift */,
-				51CBCE5129D0ECA0007D9325 /* originStory.swift */,
 			);
-			path = Components;
+			name = Utilites;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5128D0B02B49F16B0011B649 /* Model in Resources */,
 				515A518529C78753008D6287 /* Preview Assets.xcassets in Resources */,
 				515A518229C78753008D6287 /* Assets.xcassets in Resources */,
 			);
@@ -200,18 +239,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51A5B9B929E3600B001E4311 /* ContentView.swift in Sources */,
+				51A5B9B929E3600B001E4311 /* HomeView.swift in Sources */,
 				515A517E29C78753008D6287 /* HookahShopApp.swift in Sources */,
-				513E674129F5E7F600814C01 /* bodyWelcome.swift in Sources */,
+				51601F222BAF8830000AE819 /* GetDirectionViewModel.swift in Sources */,
 				513E673F29F5E7AD00814C01 /* PageNotFound.swift in Sources */,
 				513E673E29F5E7AA00814C01 /* GetDirections.swift in Sources */,
-				513E674629F5E80900814C01 /* originStory.swift in Sources */,
-				513E674329F5E7FE00814C01 /* header.swift in Sources */,
+				51601F1F2BAF87E9000AE819 /* ContactUsViewModel.swift in Sources */,
+				51601F252BAF888A000AE819 /* PageNotFoundViewModel.swift in Sources */,
 				513E673D29F5E7A200814C01 /* ContactUsView.swift in Sources */,
-				513E674729F5E81500814C01 /* navBar.swift in Sources */,
-				513E674529F5E80400814C01 /* maps.swift in Sources */,
-				513E674229F5E7FA00814C01 /* companyTitle.swift in Sources */,
-				513E674429F5E80100814C01 /* homeMainPic.swift in Sources */,
+				5128D0B32B49F36A0011B649 /* HomeViewModel.swift in Sources */,
+				51601F282BAF88D6000AE819 /* GetQuoteViewModel.swift in Sources */,
 				513E674029F5E7B000814C01 /* GetQuote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
