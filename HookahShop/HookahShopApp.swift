@@ -11,9 +11,8 @@ import SwiftUI
 struct HookahShopApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
-                .background(Color.black)
-                .edgesIgnoringSafeArea(.all)
+            ContentView()
+                
         }
     }
 }

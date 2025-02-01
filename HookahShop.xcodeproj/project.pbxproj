@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3644355D2D4EBFE900E3249F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3644355C2D4EBFE900E3249F /* ContentView.swift */; };
 		5128D0B32B49F36A0011B649 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5128D0B22B49F36A0011B649 /* HomeViewModel.swift */; };
 		513E673D29F5E7A200814C01 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9B629E35FF6001E4311 /* ContactUsView.swift */; };
 		513E673E29F5E7AA00814C01 /* GetDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9BA29E36016001E4311 /* GetDirections.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3644355C2D4EBFE900E3249F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5128D0B22B49F36A0011B649 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		515A517A29C78753008D6287 /* HookahShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HookahShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		515A517D29C78753008D6287 /* HookahShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookahShopApp.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		3663A5402D4EB26500FC10E1 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				3644355C2D4EBFE900E3249F /* ContentView.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			files = (
 				51A5B9B929E3600B001E4311 /* HomeView.swift in Sources */,
 				515A517E29C78753008D6287 /* HookahShopApp.swift in Sources */,
+				3644355D2D4EBFE900E3249F /* ContentView.swift in Sources */,
 				51601F222BAF8830000AE819 /* GetDirectionViewModel.swift in Sources */,
 				513E673F29F5E7AD00814C01 /* PageNotFound.swift in Sources */,
 				513E673E29F5E7AA00814C01 /* GetDirections.swift in Sources */,
