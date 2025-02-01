@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5128D0B02B49F16B0011B649 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 5128D0AF2B49F16B0011B649 /* Model */; };
 		5128D0B32B49F36A0011B649 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5128D0B22B49F36A0011B649 /* HomeViewModel.swift */; };
 		513E673D29F5E7A200814C01 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9B629E35FF6001E4311 /* ContactUsView.swift */; };
 		513E673E29F5E7AA00814C01 /* GetDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5B9BA29E36016001E4311 /* GetDirections.swift */; };
@@ -25,7 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5128D0AF2B49F16B0011B649 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 		5128D0B22B49F36A0011B649 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		515A517A29C78753008D6287 /* HookahShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HookahShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		515A517D29C78753008D6287 /* HookahShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookahShopApp.swift; sourceTree = "<group>"; };
@@ -56,6 +54,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3663A53F2D4EB1A700FC10E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3663A5402D4EB26500FC10E1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		5128D0B12B49F3190011B649 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,12 +97,13 @@
 		515A517C29C78753008D6287 /* HookahShop */ = {
 			isa = PBXGroup;
 			children = (
+				3663A53F2D4EB1A700FC10E1 /* Model */,
 				51A5B9C029E36046001E4311 /* Views */,
+				3663A5402D4EB26500FC10E1 /* Navigation */,
 				51CBCE4229D0E654007D9325 /* Utilites */,
 				515A517D29C78753008D6287 /* HookahShopApp.swift */,
 				515A518129C78753008D6287 /* Assets.xcassets */,
 				515A518629C78753008D6287 /* HookahShop.entitlements */,
-				5128D0AF2B49F16B0011B649 /* Model */,
 				515A518329C78753008D6287 /* Preview Content */,
 			);
 			path = HookahShop;
@@ -226,7 +239,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5128D0B02B49F16B0011B649 /* Model in Resources */,
 				515A518529C78753008D6287 /* Preview Assets.xcassets in Resources */,
 				515A518229C78753008D6287 /* Assets.xcassets in Resources */,
 			);
